@@ -17,8 +17,8 @@
             Pour mettre fin à l'appel, dites "étoile".
 
         </prompt>
-        <choice dtmf="1" next="http://webhosting.voxeo.net/208890/www/select_poll_f.xml"/>
-        <choice dtmf="0" next="http://webhosting.voxeo.net/208890/www/main_menu.xml"/>
+        <choice dtmf="1" next="https://github.com/WLMCD/vxml/tree/ecc623bb5ca4c2d7a8ccf47077d251566a4811b3/vxml3.0/www/select_poll_f.xml"/>
+        <choice dtmf="0" next="https://github.com/WLMCD/vxml/tree/ecc623bb5ca4c2d7a8ccf47077d251566a4811b3/vxml3.0/main_menu.xml"/>
         <choice dtmf="*" event="end"/>
     </menu>
 </vxml>
