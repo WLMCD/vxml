@@ -14,8 +14,8 @@
             <break time="1000ms"/>
             To end the call, Please press the asterisk key.
         </prompt>
-        <choice dtmf="1" next="http://webhosting.voxeo.net/208890/www/menu_f.xml"></choice>
-        <choice dtmf="2" next="http://webhosting.voxeo.net/208890/www/menu_b.xml"></choice>
+        <choice dtmf="1" next="https://github.com/WLMCD/vxml/tree/ecc623bb5ca4c2d7a8ccf47077d251566a4811b3/vxml3.0/menu_f.xml"></choice>
+        <choice dtmf="2" next="https://github.com/WLMCD/vxml/tree/ecc623bb5ca4c2d7a8ccf47077d251566a4811b3/vxml3.0/menu_b.xml"></choice>
         <choice dtmf="*" event="end"></choice>
         
     </menu>
